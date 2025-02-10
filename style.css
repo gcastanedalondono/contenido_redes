@@ -293,7 +293,7 @@ body {
         margin: 1px;
         border: 1px solid #ccc;
         height: 224px;
-        min-width: 180px; /* Ancho mínimo para cada contenedor */
+        min-width: auto; /* Ancho mínimo para cada contenedor */
         text-align: center; 
         margin-bottom: 20px;
     }

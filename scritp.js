@@ -10,10 +10,10 @@ function toggleMobileMenu () {
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
         { id: 1, title: 'Tratamiento de cejas y pestañas', imgSrc: 'pestañas.png', description: "Un tratamiento para cejas y pestañas, precio: $15.000", pageUrl: 'tratamiento_pestañas.html' },
-        { id: 2, title: 'Aceites de coco virgen prensado en frío', imgSrc: 'aceite_230ml.png', description: "Aceite de coco prensado en frío, precio: $28.000", pageUrl: 'aceite_de_coco.html' },
-        { id: 3, title: 'Cremas extrahumectante', imgSrc: 'crema_310g.png', description: "Crema extrahumectante para el cuidado diario, precio: $48.000", pageUrl: 'crema_extrahumectante.html' },
+        { id: 2, title: 'Aceites de coco virgen prensado en frío', imgSrc: 'aceite.png', description: "Aceite de coco prensado en frío, precio: $28.000", pageUrl: 'aceite_de_coco.html' },
+        { id: 3, title: 'Cremas extrahumectante', imgSrc: 'cremas.png', description: "Crema extrahumectante para el cuidado diario, precio: $48.000", pageUrl: 'crema_extrahumectante.html' },
         { id: 4, title: 'Protectores labiales', imgSrc: 'labiales.png', description: "Protectores labiales para todo tipo de piel, precio: $85.000", pageUrl: 'protectores_labiales.html' },
-        { id: 5, title: 'Protectores labiales', imgSrc: 'labiales.png', description: "Protectores labiales para todo tipo de piel, precio: $85.000", pageUrl: 'protectores_labiales.html' }
+        { id: 5, title: 'Protectores labiales', imgSrc: 'jabones.jpg', description: "Jabones", pageUrl: 'protectores_labiales.html' }
     ];
 
     const gallery = document.querySelector('.gallery');
