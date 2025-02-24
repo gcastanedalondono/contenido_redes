@@ -272,7 +272,7 @@ body {
         align-items: center; /* Centra verticalmente */
         flex-direction: column; /* Alinea los elementos de arriba a abajo */
         height: 100vh; /* Usa toda la altura de la ventana */
-        margin-top: -100px;
+        margin-top: -40px;
     }
 
 
@@ -281,6 +281,9 @@ body {
         height: auto;
     }
     
+    .color_lista{
+        font-size: 18px;
+    }
 
 /* Estilos para dispositivos de escritorio */
 @media (min-width: 642px) {
@@ -419,15 +422,10 @@ body {
         display:none;
     }
     
-    .contenedor{
-        
-        display: flex;
-        justify-content: center; /* Centra horizontalmente */
-        align-items: center; /* Centra verticalmente */
-        flex-direction: column; /* Alinea los elementos de arriba a abajo */
-        height: 100vh; /* Usa toda la altura de la ventana */
-        margin-top: 10px;
-    }
+    .contenedor {
+        flex-direction: row; /* Cambia la dirección de los elementos a fila (horizontal) */
+        justify-content: space-evenly; /* Distribuye el espacio de manera uniforme entre los elementos */
+      }
 
     .item2{
         width: 300px;
