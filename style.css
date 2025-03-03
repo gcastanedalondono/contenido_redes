@@ -265,24 +265,14 @@ body {
         font-size: 24px; /* Ajusta el tamaño del botón de cierre */
     }
 
-    .contenedor{
-        
-        display: flex;
-        justify-content: center; /* Centra horizontalmente */
-        align-items: center; /* Centra verticalmente */
-        flex-direction: column; /* Alinea los elementos de arriba a abajo */
-        height: 100vh; /* Usa toda la altura de la ventana */
-        margin-top: -40px;
-    }
+    
+    
 
-
-    .item2{
-        width: 285px;
-        height: auto;
-    }
+   
     
     .color_lista{
         font-size: 18px;
+        margin-top: 30px;
     }
 
 /* Estilos para dispositivos de escritorio */

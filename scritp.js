@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 5, title: 'Protectores labiales', imgSrc: 'jabones.jpg', description: "Jabones", pageUrl: 'protectores_labiales.html' }
     ];
 
+    
+
     const gallery = document.querySelector('.gallery');
 
     // Generar los elementos de la tienda
