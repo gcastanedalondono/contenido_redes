@@ -19,10 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const div = document.createElement('div');
         div.classList.add('item');
         
-        // Crear un enlace (a) para redirigir a la página correspondiente
-        const anchor = document.createElement('a');
-        anchor.href = item.pageUrl;  // URL a la página del producto
-        anchor.classList.add('item-link');  // Añadir una clase para estilos (opcional)
+       
         
         // Crear enlace para descargar la imagen
         const downloadLink = document.createElement('a');
