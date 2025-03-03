@@ -9,7 +9,7 @@ function toggleMobileMenu () {
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
         { id: 1, title: 'Beneficios del  tratamiento de pestañas', imgSrc: 'beneficio_pestanas.jpg' },
-        { id: 2, title: 'Uso del  tratamiento de pestañas', imgSrc: 'uso_pestañas.png' }
+        { id: 2, title: 'Uso del  tratamiento de pestañas', imgSrc: 'uso_pestañas.PNG' }
     ];
 
     const gallery = document.querySelector('.gallery');
