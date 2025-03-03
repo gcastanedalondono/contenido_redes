@@ -297,17 +297,20 @@ body {
         margin-top: 25px;
     }
 
+    
+
+
     .item {
-        display: block;
-        background-color: lightblue;
-        padding: 35px;
-        margin: 1px;
-        border: 1px solid #ccc;
-        height: 224px;
-        min-width: auto; /* Ancho mínimo para cada contenedor */
-        text-align: center; 
-        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  /* Centrar el contenido (imagen y enlace) */
+        justify-content: space-between;
+        margin: 20px;
+        width: 100%;  /* Se asegura de que el contenedor ocupe todo el ancho disponible */
+        max-width: 300px; /* Tamaño máximo del contenedor para desktop */
+        text-align: center;
     }
+
 
     .contenedor_header1 {
         display: flex;
