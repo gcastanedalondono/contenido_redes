@@ -8,7 +8,14 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Beneficios del  tratamiento de pestañas', imgSrc: 'beneficio_pestanas.jpg' }
+        { id: 1, title: 'Beneficios del  tratamiento de pestañas', imgSrc: 'beneficio_pestanas.jpg' },
+        { id: 1, title: 'Beneficios del  tratamiento de pestañas', imgSrc: 'beneficio_pestanas.jpg' },
+        { id: 1, title: 'Beneficios del  tratamiento de pestañas', imgSrc: 'beneficio_pestanas.jpg' },
+        { id: 1, title: 'Beneficios del  tratamiento de pestañas', imgSrc: 'beneficio_pestanas.jpg' },
+
+
+       
+
        
     ];
 

@@ -8,7 +8,14 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Beneficios del  tratamiento de pestañas', imgSrc: 'beneficio_pestanas.jpg' }
+        { id: 1, title: 'Aceite de coco de 450ml', imgSrc: '450ml.PNG' },
+        { id: 2, title: 'Aceite de coco de 230ml', imgSrc: '230ml.PNG' },
+        { id: 3, title: 'Aceite de coco de 950ml', imgSrc: '950ml.PNG' },
+        { id: 4, title: 'Aceite de coco de 100ml', imgSrc: 'Aceite de coco de 100 ml', imgSrc:"100ml.PNG" },
+
+
+       
+
        
     ];
 
