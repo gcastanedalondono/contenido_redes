@@ -8,23 +8,21 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Tratamiento de cejas y pestañas', imgSrc: 'beneficio_pestanas.jpg', description: "Un tratamiento para cejas y pestañas, precio: $15.000", pageUrl: 'tratamiento_pestañas.html' },
-        { id: 2, title: 'Aceites de coco virgen prensado en frío', imgSrc: 'uso_pestañas.png', description: "Aceite de coco prensado en frío, precio: $28.000", pageUrl: 'aceite_de_coco.html' }
+        { id: 1, title: 'Beneficios del  tratamiento de pestañas', imgSrc: 'beneficio_pestanas.jpg' },
+        { id: 2, title: 'Uso del  tratamiento de pestañas', imgSrc: 'uso_pestañas.png' }
     ];
 
     const gallery = document.querySelector('.gallery');
 
-    // Generar los elementos de la tienda para los primeros dos ítems
+    // Generar los elementos de la tienda para los ítems
     items.forEach(item => {
         const div = document.createElement('div');
         div.classList.add('item');
         
-       
-        
         // Crear enlace para descargar la imagen
         const downloadLink = document.createElement('a');
         downloadLink.href = item.imgSrc;  // Ruta de la imagen
-        downloadLink.download = item.imgSrc;  // El atributo download le indica que descargue la imagen
+        downloadLink.download = item.imgSrc.split('/').pop();  // Descargar la imagen con su nombre original
         downloadLink.classList.add('download-link');  // Añadir una clase para los estilos de la descarga
 
         downloadLink.innerHTML = `
@@ -33,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span class="download-text">Descargar Imagen</span>
         `;
 
-        // Agregar el enlace de descarga y el enlace de la tienda a la galería
+        // Agregar el enlace de descarga a la galería
         div.appendChild(downloadLink);
         gallery.appendChild(div);
     });
