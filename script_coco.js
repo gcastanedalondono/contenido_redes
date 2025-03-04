@@ -12,7 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 2, title: 'Aceite de coco de 230ml', imgSrc: '230ml.png' },
         { id: 3, title: 'Aceite de coco de 950ml', imgSrc: '950ml.png' },
         { id: 4, title: 'Aceite de coco de 100ml', imgSrc: '100ml.png' },
-        { id: 5, title: 'Aceite de coco y perros', videoSrc: '100ml.png' }
+        { id: 5, title: 'todos los aceites', imgSrc: 'aceite.png' },
+        { id: 6, title: 'beneficios del aceite 1', imgSrc: 'beneficio_1.jpg' },
+        { id: 7, title: 'beneficios del aceite para el cabello', imgSrc: 'beneficio_2.jpg' },
+        { id: 8, title: 'beneficios del aceite para la piel', imgSrc: 'beneficio_3.jpg' }
         
 
 
