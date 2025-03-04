@@ -11,7 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 1, title: 'Aceite de coco de 450ml', imgSrc: '450ml.PNG' },
         { id: 2, title: 'Aceite de coco de 230ml', imgSrc: '230ml.PNG' },
         { id: 3, title: 'Aceite de coco de 950ml', imgSrc: '950ml.PNG' },
-        { id: 4, title: 'Aceite de coco de 100ml', imgSrc: 'Aceite de coco de 100 ml', imgSrc:"100ml.PNG" },
+        { id: 4, title: 'Aceite de coco de 100ml', imgSrc: '100ml.PNG' },
+        { id: 5, title: 'Aceite de coco y perros', videoSrc: '100ml.PNG' }
+        
 
 
        
