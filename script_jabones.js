@@ -9,12 +9,12 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Crema para hombre', imgSrc: 'crema_hombre.jpg' },
-        { id: 2, title: 'Crema extrahumectante de coco', imgSrc: 'cremas.png' },
-        { id: 3, title: 'crema de 470g', imgSrc: 'crema_470g.jpg' },
-        { id: 4, title: 'crema de 310g', imgSrc: 'crema_310g.jpg' },
-        { id: 5, title: 'crema de 90g', imgSrc: 'crema_90g.png' },
-        { id: 6, title: 'crema de 90g', imgSrc: 'crema_90g.png' }
+        { id: 1, title: 'beneficios jabón avena', imgSrc: 'jabon_avena_1.png' },
+        { id: 2, title: 'beneficios jabón avena', imgSrc: 'jabon_avena_2.jpg' },
+        { id: 3, title: 'beneficios jabón de carbón activado', imgSrc: 'jabon_carbon_1.png' },
+        { id: 4, title: 'imagen de los jabones', imgSrc: 'jabones.png' },
+        { id: 5, title: 'jabones con aceites esenciales', imgSrc: 'jabones_esenciales.jpg' },
+        { id: 6, title: 'jabones artesanales', imgSrc: 'jabones_normales.jpg' }
 
         
 
